@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { createRoot } from 'react-dom/client';
-import { Minus, Plus, Target, Loader2 } from 'lucide-react';
+import { Minus, Plus, RotateCcw, Loader2 } from 'lucide-react';
 
 // --- Types ---
 
@@ -387,7 +387,7 @@ const App = () => {
           className="p-3 hover:bg-blue-50 hover:text-blue-600 rounded-xl text-slate-700 transition-all hover:scale-110 active:scale-95" 
           title="Center View"
         >
-          <Target size={20} />
+          <RotateCcw size={20} />
         </button>
       </div>
 
